@@ -1,0 +1,15 @@
+public class CorrecaoNomenclatura {
+    public static void main(String[] args) {
+        // Identificadores corrigidos com padrão camelCase
+        String nomeProduto;
+        double precoProduto;
+        String marcaProduto;
+        int quantidadeProduto;
+        String descricaoProduto;
+        String nomeProduto2;
+        int numeroProduto2;
+        double precoProduto2;
+        int estoqueDisponivel;
+        int totalDeProdutos; 
+    }
+}
