@@ -1,0 +1,41 @@
+public class Carro {
+    private String marca;
+    private String modelo;
+    private int anoFabricacao;
+    private String cor;
+    private double preco;
+
+    public Carro(String marca, String modelo, int anoFabricacao, String cor, double preco) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.anoFabricacao = anoFabricacao;
+        this.cor = cor;
+        this.preco = preco;
+    }
+
+    public void exibirInformacoes() {
+        System.out.println("Marca: " + marca);
+        System.out.println("Modelo: " + modelo);
+        System.out.println("Ano de Fabricação: " + anoFabricacao);
+        System.out.println("Cor: " + cor);
+        System.out.println("Preço: R$" + preco);
+    }
+
+    public void atualizarPreco(double novoPreco) {
+        this.preco = novoPreco;
+        System.out.println("Preço atualizado para R$" + preco);
+    }
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+public class CarroTeste {
+    public static void main(String[] args) {
+        Carro meuCarro = new Carro("Toyota", "Corolla", 2021, "Prata", 85000.00);
+
+        System.out.println("Informações do Carro:");
+        meuCarro.exibirInformacoes();
+
+        meuCarro.atualizarPreco(90000.00);
+    }
+}
