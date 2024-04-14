@@ -1,0 +1,38 @@
+public class ControleEstoque {
+    public static void main(String[] args) {
+        String nomeSmartphone = "Galaxy S21";
+        String marcaSmartphone = "Samsung";
+        double precoSmartphone = 2999.99;
+        int quantidadeSmartphone = 50;
+        
+        String nomeLaptop = "Dell XPS 15";
+        String marcaLaptop = "Dell";
+        double precoLaptop = 2499.99;
+        int quantidadeLaptop = 30;
+        
+        String nomeFoneBluetooth = "AirPods Pro";
+        String marcaFoneBluetooth = "Apple";
+        double precoFoneBluetooth = 249.99;
+        int quantidadeFoneBluetooth = 100;
+        
+        System.out.println("Dados do Smartphone:");
+        System.out.println("Nome: " + nomeSmartphone);
+        System.out.println("Marca: " + marcaSmartphone);
+        System.out.println("Preço: $" + precoSmartphone);
+        System.out.println("Quantidade em estoque: " + quantidadeSmartphone);
+        System.out.println();
+        
+        System.out.println("Dados do Laptop:");
+        System.out.println("Nome: " + nomeLaptop);
+        System.out.println("Marca: " + marcaLaptop);
+        System.out.println("Preço: $" + precoLaptop);
+        System.out.println("Quantidade em estoque: " + quantidadeLaptop);
+        System.out.println();
+        
+        System.out.println("Dados do Fone de Ouvido Bluetooth:");
+        System.out.println("Nome: " + nomeFoneBluetooth);
+        System.out.println("Marca: " + marcaFoneBluetooth);
+        System.out.println("Preço: $" + precoFoneBluetooth);
+        System.out.println("Quantidade em estoque: " + quantidadeFoneBluetooth);
+    }
+}
