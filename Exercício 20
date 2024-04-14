@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class PatinhosXuxa {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Digite o número inicial de patinhos:");
+        int patinhos = scanner.nextInt();
+        
+        for (int i = patinhos; i >= 1; i--) {
+            if (i == 1) {
+                System.out.println("A mamãe patinha foi procurar");
+            } else {
+                System.out.println(i + " patinhos foram passear");
+                System.out.println("Além das montanhas");
+                System.out.println("Para brincar");
+                System.out.println("A mamãe gritou: Quá, quá, quá, quá");
+                System.out.println("Mas só " + (i - 1) + " patinhos voltaram de lá\n");
+            }
+        }
+        
+        System.out.println("Na beira do mar");
+        System.out.println("A mamãe gritou: Quá, quá, quá, quá");
+        System.out.println("E os " + patinhos + " patinhos voltaram de lá.");
+        
+        scanner.close();
+    }
+}
