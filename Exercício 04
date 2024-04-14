@@ -1,0 +1,14 @@
+public class ControleEstoque {
+    public static void main(String[] args) {
+        String nomeProduto1;
+        String categoriaProduto1;
+        double precoUnitarioProduto1;
+        int quantidadeEstoqueProduto1;
+        
+        String nomeProduto2;
+        String categoriaProduto2;
+        double precoUnitarioProduto2;
+        int quantidadeEstoqueProduto2;
+        
+    }
+}
