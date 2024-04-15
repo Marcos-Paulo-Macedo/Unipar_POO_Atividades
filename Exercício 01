@@ -7,7 +7,7 @@ public class Variaveis {
         char genero = 'M';
         boolean estudante = true;
         float peso = 70.5f;
-        long populacao = 8000000000L;
+        long populacao = 800000L;
         short temperatura = -10;
         byte idadeCachorro = 3;
         double saldoConta = 1000.50;
