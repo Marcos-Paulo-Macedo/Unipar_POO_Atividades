@@ -1,11 +1,10 @@
 1-O que é orientação a objetos e quais são seus princípios fundamentais?
-Um paradigma de programação chamado orientação a objetos (OO) divide o código em unidades chamadas objetos, que são representações de entidades do mundo real. Os seus pilares são:
-
+Um paradigma de programação chamado orientação a objetos (OO) divide o código em unidades chamadas objetos, que são representações de entidades do mundo real.
+Os seus pilares são:
 Abstração: permite representar entidades do mundo real como tendo características e comportamentos específicos.
 Encapsulamento: Oculta os detalhes da implementação de um objeto, o que permite que apenas métodos definidos na classe acessem essas informações.
-
-Herança: permite que uma classe herde características e técnicas de uma outra classe, o que facilita a reutilização de código e a criação de relações entre classes.
-O polimorfismo permite a sobrescrita de métodos e a implementação de interfaces para tratar objetos de diferentes classes de forma uniforme.
+Herança: permite que uma classe herde características e técnicas de uma outra classe, o que facilita a reutilização de código e a criação de relações entre classe.
+Polimorfismo: permite a sobrescrita de métodos e a implementação de interfaces para tratar objetos de diferentes classes de forma uniforme.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 2-Quais são as vantagens da orientação a objetos em comparação com paradigmas de programação procedural?
