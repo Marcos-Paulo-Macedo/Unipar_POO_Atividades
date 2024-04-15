@@ -65,7 +65,7 @@ O membro pode ser acessado por "protegido" para todas as classes e subclasses do
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 11-Qual é a importância da palavra-chave "this" em programação orientada a objetos e como ela é utilizada?
-Em programação orientada a objetos, a palavra-chave "isso" refere-se ao objeto atual. 
+Em programação orientada a objetos, a palavra-chave "this" refere-se ao objeto atual. 
 Quando duas coisas têm o mesmo nome, ela é usada para distinguir os atributos de instância e os parâmetros de um método. 
-Por exemplo, os atributos da classe são referidos por "isso" em um construtor, enquanto os atributos dos parâmetros do construtor têm o mesmo nome. 
+Por exemplo, os atributos da classe são referidos por "this" em um construtor, enquanto os atributos dos parâmetros do construtor têm o mesmo nome. 
 Isso torna o código mais legível e evita ambiguidades.
