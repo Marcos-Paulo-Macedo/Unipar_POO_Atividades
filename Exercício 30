@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+class Circulo {
+    private double raio;
+    private String cor;
+
+    public Circulo(double raio, String cor) {
+        this.raio = raio;
+        this.cor = cor;
+    }
+
+    public double getRaio() {
+        return raio;
+    }
+
+    public String getCor() {
+        return cor;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("=== Criação de Círculo ===");
+        System.out.print("Informe o raio do círculo: ");
+        double raio = scanner.nextDouble();
+        scanner.nextLine();
+        System.out.print("Informe a cor do círculo: ");
+        String cor = scanner.nextLine();
+
+        Circulo circulo = new Circulo(raio, cor);
+
+        System.out.println("\n=== Detalhes do Círculo ===");
+        System.out.println("Raio: " + circulo.getRaio());
+        System.out.println("Cor: " + circulo.getCor());
+
+        scanner.close();
+    }
+}
