@@ -1,0 +1,71 @@
+public class Produto {
+    private String nome;
+    private double preco;
+    private int quantidadeEmEstoque;
+    
+    public Produto(String nome, double preco, int quantidadeEmEstoque) {
+        this.nome = nome;
+        this.preco = preco;
+        this.quantidadeEmEstoque = quantidadeEmEstoque;
+    }
+    
+    public String getNome() {
+        return nome;
+    }
+    
+    public double getPreco() {
+        return preco;
+    }
+    
+    public int getQuantidadeEmEstoque() {
+        return quantidadeEmEstoque;
+    }
+    
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    
+    public void setPreco(double preco) {
+        this.preco = preco;
+    }
+    
+    public void setQuantidadeEmEstoque(int quantidadeEmEstoque) {
+        this.quantidadeEmEstoque = quantidadeEmEstoque;
+    }
+    
+    public void adicionarEstoque(int quantidade) {
+        quantidadeEmEstoque += quantidade;
+    }
+    
+    public void removerEstoque(int quantidade) {
+        if (quantidade <= quantidadeEmEstoque) {
+            quantidadeEmEstoque -= quantidade;
+        } else {
+            System.out.println("Erro: Quantidade insuficiente em estoque.");
+        }
+    }
+    
+    public void exibirInformacoes() {
+        System.out.println("Nome: " + nome);
+        System.out.println("Preço: R$ " + preco);
+        System.out.println("Quantidade em estoque: " + quantidadeEmEstoque);
+    }
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+public class Main {
+    public static void main(String[] args) {
+        Produto notebookDellG3 = new Produto("Notebook Dell G3", 4500.0, 5);
+        
+        System.out.println("Informações do Notebook Dell G3:");
+        notebookDellG3.exibirInformacoes();
+        
+        notebookDellG3.setPreco(4700.0);
+        notebookDellG3.adicionarEstoque(3);
+        notebookDellG3.removerEstoque(2);
+        
+        System.out.println("\nInformações atualizadas do Notebook Dell G3:");
+        notebookDellG3.exibirInformacoes();
+    }
+}
